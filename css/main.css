@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Noto Sans";
+  src:
+    url("../fonts/NotoSans.woff2") format("woff2"),
+    url("../fonts/NotoSans.woff") format("woff"),
+    url("../fonts/NotoSans.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  font-family: "Noto Sans";
+}
+/* slider-green-filled */
+@keyframes loading {
+  0% {
+    width: 0;
+    background-color: #80c343;
+  }
+  80% {
+    width: 100%;
+    background-color: #80c343;
+  }
+  100% {
+    width: 100%;
+    background-color: #fff; 
+  }
+}
+/* Insights and Innovations/sm */
+.Insights-sm {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; 
+  -webkit-overflow-scrolling: touch; 
+  position: relative;
+}
+
+.Insights-sm > .flex {
+  display: flex;
+}
+
+.Insights1 {
+  flex: 0 0 100%; 
+  scroll-snap-align: start; 
+  margin-right: 2%; 
+}
+.Browse-item:hover .Browse-text{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+
+
+
+
